@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 from typing import Literal
 
+
 @dataclass
 class Codex5HoursUsage:
     used_percent: int
@@ -8,12 +9,14 @@ class Codex5HoursUsage:
     reset_after_seconds: int
     reset_at: int
 
+
 @dataclass
 class CodexWeeklyUsage:
     used_percent: int
     limit_window_seconds: int
     reset_after_seconds: int
     reset_at: int
+
 
 @dataclass
 class CodexCodeReviewUsage:
